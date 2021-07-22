@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM amd64/python:3-alpine
 
 RUN pip install awscli-local[ver1]
 
